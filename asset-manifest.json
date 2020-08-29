@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/swaraj344.github.io/static/css/main.09c04e9a.chunk.css",
+    "main.js": "/swaraj344.github.io/static/js/main.59386960.chunk.js",
+    "main.js.map": "/swaraj344.github.io/static/js/main.59386960.chunk.js.map",
+    "runtime-main.js": "/swaraj344.github.io/static/js/runtime-main.af5d2924.js",
+    "runtime-main.js.map": "/swaraj344.github.io/static/js/runtime-main.af5d2924.js.map",
+    "static/css/2.a3c0ce4c.chunk.css": "/swaraj344.github.io/static/css/2.a3c0ce4c.chunk.css",
+    "static/js/2.dce9a316.chunk.js": "/swaraj344.github.io/static/js/2.dce9a316.chunk.js",
+    "static/js/2.dce9a316.chunk.js.map": "/swaraj344.github.io/static/js/2.dce9a316.chunk.js.map",
+    "index.html": "/swaraj344.github.io/index.html",
+    "precache-manifest.7b060e765fb0f982f6d04d7a7b0671c3.js": "/swaraj344.github.io/precache-manifest.7b060e765fb0f982f6d04d7a7b0671c3.js",
+    "service-worker.js": "/swaraj344.github.io/service-worker.js",
+    "static/css/2.a3c0ce4c.chunk.css.map": "/swaraj344.github.io/static/css/2.a3c0ce4c.chunk.css.map",
+    "static/css/main.09c04e9a.chunk.css.map": "/swaraj344.github.io/static/css/main.09c04e9a.chunk.css.map",
+    "static/js/2.dce9a316.chunk.js.LICENSE.txt": "/swaraj344.github.io/static/js/2.dce9a316.chunk.js.LICENSE.txt",
+    "static/media/boxicons.css": "/swaraj344.github.io/static/media/boxicons.aeaf4ee6.woff2",
+    "static/media/HeroSection.css": "/swaraj344.github.io/static/media/man2.c5ccf11d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af5d2924.js",
+    "static/css/2.a3c0ce4c.chunk.css",
+    "static/js/2.dce9a316.chunk.js",
+    "static/css/main.09c04e9a.chunk.css",
+    "static/js/main.59386960.chunk.js"
+  ]
+}
