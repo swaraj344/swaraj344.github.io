@@ -1,0 +1,59 @@
+li {
+  list-style: none;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  position: relative;
+  background: #0000008a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+}
+
+.hero:before {
+  content: "";
+  position: fixed;
+  background: #040404 url("./assets/img/man2.jpg") top right no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+.hero h1 {
+  /* background-color: red; */
+  margin: 0;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: sans-serif;
+}
+
+.hero p {
+  /* background-color: yellow; */
+  margin-top: 14px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.hero ul {
+  /* background-color: violet; */
+  display: flex;
+  margin-top: 24px;
+}
+.hero ul li a i {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 18px;
+  transition: 0.3s;
+}
+.hero ul li a i:hover {
+  color: blue;
+  transform: translateY(-2px);
+}
