@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import Typed from "react-typed";
 
 function HeroSection() {
   return (
@@ -7,7 +8,21 @@ function HeroSection() {
       <section className="hero">
         <h1>Swaraj Kumar</h1>
         <p>
-          I'm <span></span>
+          I'm{" "}
+          <Typed
+            className="typed"
+            strings={[
+              "Programmer",
+              "App Developer",
+              "Web Developer",
+              "Student",
+            ]}
+            typeSpeed={100}
+            backSpeed={50}
+            backDelay={1000}
+            // attr="placeholder"
+            loop
+          />
         </p>
         <ul className="social-links">
           <li>

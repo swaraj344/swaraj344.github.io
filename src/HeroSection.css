@@ -32,7 +32,7 @@ li {
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 56px;
-  font-family: sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .hero p {
@@ -40,6 +40,7 @@ li {
   margin-top: 14px;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
+  transition: 0.3;
 }
 .hero ul {
   /* background-color: violet; */
@@ -56,4 +57,10 @@ li {
 .hero ul li a i:hover {
   color: blue;
   transform: translateY(-2px);
+}
+.typed {
+  color: #0880f0;
+  /* font-size: 24px; */
+  font-family: "poppins" sans-serif;
+  /* background: transparent; */
 }

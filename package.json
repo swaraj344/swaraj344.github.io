@@ -10,7 +10,8 @@
     "boxicons": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-typed": "^1.2.0"
   },
   "scripts": {
     "deploy": "gh-pages -d build",
