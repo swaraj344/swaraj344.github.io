@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cff5e1b1e1de043f3ee44aebd7ba050d",
+    "revision": "87517186571cc8ebf1470e3d00e54a66",
     "url": "/swaraj344.github.io/index.html"
   },
   {
-    "revision": "21e9c2987ad83e6022e2",
+    "revision": "6611f662f0fd9e10d3c1",
     "url": "/swaraj344.github.io/static/css/2.a3c0ce4c.chunk.css"
   },
   {
-    "revision": "61896bebe2fbe0b9a971",
-    "url": "/swaraj344.github.io/static/css/main.09c04e9a.chunk.css"
+    "revision": "13d4460d8197bc7f9457",
+    "url": "/swaraj344.github.io/static/css/main.b6614c05.chunk.css"
   },
   {
-    "revision": "21e9c2987ad83e6022e2",
-    "url": "/swaraj344.github.io/static/js/2.dce9a316.chunk.js"
+    "revision": "6611f662f0fd9e10d3c1",
+    "url": "/swaraj344.github.io/static/js/2.4b4fece5.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/swaraj344.github.io/static/js/2.dce9a316.chunk.js.LICENSE.txt"
+    "revision": "fdc84dfb581e6fb8755dd1b2b01a50e1",
+    "url": "/swaraj344.github.io/static/js/2.4b4fece5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "61896bebe2fbe0b9a971",
-    "url": "/swaraj344.github.io/static/js/main.59386960.chunk.js"
+    "revision": "13d4460d8197bc7f9457",
+    "url": "/swaraj344.github.io/static/js/main.9d02f5bb.chunk.js"
   },
   {
     "revision": "991cdccf91ffe9bb9813",
