@@ -1,9 +1,9 @@
 import React from "react";
-import "./Header.css";
+import "./css/Header.css";
 
 const HeaderLink = (props) => (
   <li className={props.liClass}>
-    <a href="##">
+    <a id={props.unid} href="#home">
       <i className={props.iconClass}></i>
       <span>{props.title}</span>
     </a>
@@ -17,6 +17,7 @@ function Header() {
         <nav className="nav-menu">
           <ul>
             <HeaderLink
+              unid="link"
               liClass="nav-item"
               iconClass="bx bx-home"
               title="Home"

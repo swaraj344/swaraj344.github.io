@@ -1,0 +1,18 @@
+.darkBg {
+  background: #2b2b2b;
+}
+.image-container {
+  /* top: 14%; */
+  /* display: flex;
+
+  flex-direction: column;
+  justify-content: center; */
+  /* background: red; */
+  /* padding: 20% 20px; */
+}
+.about-left-section {
+  padding: 20px 0;
+}
+.about-left-section p {
+  color: #ababab;
+}

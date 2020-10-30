@@ -18,7 +18,7 @@ li {
 .hero:before {
   content: "";
   position: fixed;
-  background: #040404 url("./assets/img/man2.jpg") top right no-repeat;
+  background: #040404 url("../../assets/img/man2.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -34,6 +34,15 @@ li {
   line-height: 56px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+@media only screen and (max-width: 876px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  .hero {
+    padding-left: 0%;
+    align-items: center;
+  }
+}
 
 .hero p {
   /* background-color: yellow; */
@@ -46,6 +55,7 @@ li {
   /* background-color: violet; */
   display: flex;
   margin-top: 24px;
+  padding-left: 0 !important;
 }
 .hero ul li a i {
   text-decoration: none;

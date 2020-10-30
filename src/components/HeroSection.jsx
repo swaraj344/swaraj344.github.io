@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeroSection.css";
+import "./css/HeroSection.css";
 import Typed from "react-typed";
 
 function HeroSection() {

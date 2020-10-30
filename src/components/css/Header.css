@@ -11,6 +11,25 @@
   margin: 20px;
   transition: all 1s;
 }
+@media only screen and (max-width: 676px) {
+  .nav-menu ul {
+    display: flex;
+    /* margin: 0; */
+    padding: 0;
+    justify-content: space-evenly;
+    /* background: red; */
+  }
+  #header {
+    top: 2%;
+    right: 0;
+    bottom: auto;
+    display: flex;
+    flex-direction: row;
+    /* background: blue; */
+    flex-direction: column;
+    margin: 0;
+  }
+}
 
 .nav-menu * {
   text-decoration: none;
@@ -22,6 +41,7 @@
 
 .nav-menu > ul > li {
   display: flex;
+
   align-items: center;
   position: relative;
   white-space: nowrap;

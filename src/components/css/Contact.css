@@ -1,0 +1,7 @@
+#contact {
+  background-color: #fff;
+  color: black;
+}
+#contact .contact__wrapper {
+  padding: 10% 50px;
+}
