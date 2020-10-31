@@ -1,0 +1,41 @@
+.edu-detail-card {
+  height: 300px;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+.edu-subtitle {
+  background-color: #ababab;
+  margin: 20px 0;
+  padding: 5px 10px;
+}
+.edu-title {
+  color: black;
+}
+#resume .title {
+  position: relative;
+  color: black;
+
+  padding: 60px 0 20px 0;
+}
+#resume .title::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 10px;
+
+  display: flex;
+  width: 100%;
+  background: powderblue;
+}
+/* progress bar code */
+.circularprogress {
+  position: relative;
+  background: red;
+  height: 100%;
+  width: 100%;
+}
+.svg-container {
+  height: 150px;
+  width: 150px;
+}
+/*  */
