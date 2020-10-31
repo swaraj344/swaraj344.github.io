@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87517186571cc8ebf1470e3d00e54a66",
+    "revision": "d76559fa6f7d11c32fc2858bb3f767cf",
     "url": "/swaraj344.github.io/index.html"
   },
   {
-    "revision": "6611f662f0fd9e10d3c1",
-    "url": "/swaraj344.github.io/static/css/2.a3c0ce4c.chunk.css"
+    "revision": "0355208af5fb109070a9",
+    "url": "/swaraj344.github.io/static/css/2.b207ad38.chunk.css"
   },
   {
-    "revision": "13d4460d8197bc7f9457",
-    "url": "/swaraj344.github.io/static/css/main.b6614c05.chunk.css"
+    "revision": "068b9ca3e0fe6078be91",
+    "url": "/swaraj344.github.io/static/css/main.3e4b9378.chunk.css"
   },
   {
-    "revision": "6611f662f0fd9e10d3c1",
-    "url": "/swaraj344.github.io/static/js/2.4b4fece5.chunk.js"
+    "revision": "0355208af5fb109070a9",
+    "url": "/swaraj344.github.io/static/js/2.9c2e8dc3.chunk.js"
   },
   {
-    "revision": "fdc84dfb581e6fb8755dd1b2b01a50e1",
-    "url": "/swaraj344.github.io/static/js/2.4b4fece5.chunk.js.LICENSE.txt"
+    "revision": "d0d6b5033fd77eb6038046252d67d3b7",
+    "url": "/swaraj344.github.io/static/js/2.9c2e8dc3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13d4460d8197bc7f9457",
-    "url": "/swaraj344.github.io/static/js/main.9d02f5bb.chunk.js"
+    "revision": "068b9ca3e0fe6078be91",
+    "url": "/swaraj344.github.io/static/js/main.b304f565.chunk.js"
   },
   {
     "revision": "991cdccf91ffe9bb9813",
@@ -50,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c5ccf11dafa695d4b919570d95cd8a24",
     "url": "/swaraj344.github.io/static/media/man2.c5ccf11d.jpg"
+  },
+  {
+    "revision": "fc7d3e260802c2b6ba28f05e1ef78db7",
+    "url": "/swaraj344.github.io/static/media/profile.fc7d3e26.jpg"
   }
 ]);

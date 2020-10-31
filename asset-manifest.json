@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/swaraj344.github.io/static/css/main.b6614c05.chunk.css",
-    "main.js": "/swaraj344.github.io/static/js/main.9d02f5bb.chunk.js",
-    "main.js.map": "/swaraj344.github.io/static/js/main.9d02f5bb.chunk.js.map",
+    "main.css": "/swaraj344.github.io/static/css/main.3e4b9378.chunk.css",
+    "main.js": "/swaraj344.github.io/static/js/main.b304f565.chunk.js",
+    "main.js.map": "/swaraj344.github.io/static/js/main.b304f565.chunk.js.map",
     "runtime-main.js": "/swaraj344.github.io/static/js/runtime-main.af5d2924.js",
     "runtime-main.js.map": "/swaraj344.github.io/static/js/runtime-main.af5d2924.js.map",
-    "static/css/2.a3c0ce4c.chunk.css": "/swaraj344.github.io/static/css/2.a3c0ce4c.chunk.css",
-    "static/js/2.4b4fece5.chunk.js": "/swaraj344.github.io/static/js/2.4b4fece5.chunk.js",
-    "static/js/2.4b4fece5.chunk.js.map": "/swaraj344.github.io/static/js/2.4b4fece5.chunk.js.map",
+    "static/css/2.b207ad38.chunk.css": "/swaraj344.github.io/static/css/2.b207ad38.chunk.css",
+    "static/js/2.9c2e8dc3.chunk.js": "/swaraj344.github.io/static/js/2.9c2e8dc3.chunk.js",
+    "static/js/2.9c2e8dc3.chunk.js.map": "/swaraj344.github.io/static/js/2.9c2e8dc3.chunk.js.map",
     "index.html": "/swaraj344.github.io/index.html",
-    "precache-manifest.1eb27443a5b91c1b59494942ec0d2532.js": "/swaraj344.github.io/precache-manifest.1eb27443a5b91c1b59494942ec0d2532.js",
+    "precache-manifest.47ef6e825dbe410dda991a5f6a68826f.js": "/swaraj344.github.io/precache-manifest.47ef6e825dbe410dda991a5f6a68826f.js",
     "service-worker.js": "/swaraj344.github.io/service-worker.js",
-    "static/css/2.a3c0ce4c.chunk.css.map": "/swaraj344.github.io/static/css/2.a3c0ce4c.chunk.css.map",
-    "static/css/main.b6614c05.chunk.css.map": "/swaraj344.github.io/static/css/main.b6614c05.chunk.css.map",
-    "static/js/2.4b4fece5.chunk.js.LICENSE.txt": "/swaraj344.github.io/static/js/2.4b4fece5.chunk.js.LICENSE.txt",
+    "static/css/2.b207ad38.chunk.css.map": "/swaraj344.github.io/static/css/2.b207ad38.chunk.css.map",
+    "static/css/main.3e4b9378.chunk.css.map": "/swaraj344.github.io/static/css/main.3e4b9378.chunk.css.map",
+    "static/js/2.9c2e8dc3.chunk.js.LICENSE.txt": "/swaraj344.github.io/static/js/2.9c2e8dc3.chunk.js.LICENSE.txt",
     "static/media/boxicons.css": "/swaraj344.github.io/static/media/boxicons.aeaf4ee6.woff2",
-    "static/media/HeroSection.css": "/swaraj344.github.io/static/media/man2.c5ccf11d.jpg"
+    "static/media/HeroSection.css": "/swaraj344.github.io/static/media/man2.c5ccf11d.jpg",
+    "static/media/profile.jpg": "/swaraj344.github.io/static/media/profile.fc7d3e26.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.af5d2924.js",
-    "static/css/2.a3c0ce4c.chunk.css",
-    "static/js/2.4b4fece5.chunk.js",
-    "static/css/main.b6614c05.chunk.css",
-    "static/js/main.9d02f5bb.chunk.js"
+    "static/css/2.b207ad38.chunk.css",
+    "static/js/2.9c2e8dc3.chunk.js",
+    "static/css/main.3e4b9378.chunk.css",
+    "static/js/main.b304f565.chunk.js"
   ]
 }
