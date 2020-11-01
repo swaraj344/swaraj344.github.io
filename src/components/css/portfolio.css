@@ -1,0 +1,23 @@
+#portfolio {
+  background-color: #2b2b2b;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+#portfolio .card {
+  margin: 10px;
+  min-width: 280px;
+  max-height: 300px;
+  min-height: 300px;
+  transition: 0.5s;
+}
+#portfolio .card:hover {
+  transform: translateY(-10px);
+}
+
+#portfolio .card .card-img-top {
+  max-height: 125px;
+}
+#portfolio .card .card-body {
+  max-height: 130px;
+}

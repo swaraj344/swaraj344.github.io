@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import envelopImg from "../assets/img/img-01.png";
+import envelopImg from "../assets/img/envelop.svg";
 import "./css/Contact.css";
 import emailjs from "emailjs-com";
 
@@ -197,6 +197,9 @@ function Contact() {
     <div>
       <section id="contact">
         <div className="container contact__wrapper">
+          <span className="d-flex justify-content-center mb-lg-4">
+            <h4 className="edu-subtitle text-white">Contact</h4>
+          </span>
           <div className="row d-flex justify-center">
             <div className="col-lg-6 d-flex justify-center">
               <img className=" img-fluid " src={envelopImg} alt="Envelop" />

@@ -1,8 +1,12 @@
 import React from "react";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 import "./css/Resume.css";
+// import flutterSvg from "../assets/img/flutter.svg";
 
 const EduDetail = (props) => (
   <dir
+    key={props.title}
     className={`edu-detail-card d-flex  ${
       props.isTop ? "flex-column" : "flex-column-reverse"
     }`}
@@ -19,14 +23,35 @@ const EduDetail = (props) => (
   </dir>
 );
 
+const SkillCard = (props) => (
+  <div className="card skill__card text-dark text-center">
+    <div className="progress-wrapper">
+      <CircularProgressbar
+        strokeWidth={7}
+        value={props.value}
+        text={`${props.value}%`}
+        styles={buildStyles({
+          pathColor: `${props.progressColor}`,
+          trailColor: `${props.progressTrailColor}`,
+          pathTransitionDuration: 0.5,
+          textSize: 20,
+          textColor: "black",
+        })}
+      />
+    </div>
+
+    <h4>{props.title}</h4>
+    <p className="text-muted">{props.subtitle}</p>
+  </div>
+);
+
 function Resume() {
   return (
     <div>
       <section id="resume">
         <div className="container-fluid bg-white">
           <div className="container">
-            <h2 className="text-center title">Resume</h2>
-            <span className="d-flex justify-content-center mt-5">
+            <span className="d-flex justify-content-center pt-5">
               <h4 className="edu-subtitle">EDUCATION</h4>
             </span>
             <div className="row">
@@ -49,9 +74,8 @@ function Resume() {
                   year="2017"
                 ></EduDetail>
               </div>
-            </div>
-            <div className="row">
-              <div className="col-md-6">
+
+              <div className="col-md-6 ">
                 <EduDetail
                   isTop={true}
                   position="right"
@@ -63,76 +87,67 @@ function Resume() {
               </div>
             </div>
             <span className="d-flex justify-content-center">
-              <h4 className="edu-subtitle">EDUCATION</h4>
+              <h4 className="edu-subtitle">SKILLS</h4>
             </span>
-            {/* <div className="container text-dark">
+            <div className="container p-4">
               <div className="row">
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="card">
-                    <div className="box">
-                      <div className="percent">
-                        <svg>
-                          <circle cx="70" cy="70" r="70"></circle>
-                          <circle cx="70" cy="70" r="70"></circle>
-                        </svg>
-                        <div className="number">
-                          <h2>
-                            90 <span>%</span>
-                          </h2>
-                        </div>
-                      </div>
-                      <h2 className="skill-title">html</h2>
-                    </div>
-                  </div>
+                <div className="col-md-4 col-lg-3 col-12">
+                  <SkillCard
+                    value={80}
+                    progressColor="#C010D6"
+                    progressTrailColor="#EBA9F3"
+                    title="CORE JAVA"
+                    subtitle="A Java program is a collection of objects that communicate via invoking each other's methods"
+                  />
                 </div>
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="card">
-                    <div className="box">
-                      <div className="percent">
-                        <svg>
-                          <circle cx="70" cy="70" r="70"></circle>
-                          <circle cx="70" cy="70" r="70"></circle>
-                        </svg>
-                        <div className="number">
-                          <h2>
-                            90 <span>%</span>
-                          </h2>
-                        </div>
-                      </div>
-                      <h2 className="skill-title">html</h2>
-                    </div>
-                  </div>
+                <div className="col-md-4 col-lg-3 col-12">
+                  <SkillCard
+                    value={60}
+                    progressColor="#f4a261"
+                    progressTrailColor="#ffc699"
+                    title="PYTHON"
+                    subtitle="Python is an interpreted, object-oriented, high-level programming language with dynamic semantics"
+                  />
                 </div>
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="card">
-                    <div className="box">
-                      <div className="">
-                        <svg>
-                          <circle cx="70" cy="70" r="70"></circle>
-                          <circle cx="70" cy="70" r="70"></circle>
-                        </svg>
-                        <div className="number">
-                          <h2>
-                            90 <span>%</span>
-                          </h2>
-                        </div>
-                      </div>
-                      <h2 className="skill-title">html</h2>
-                    </div>
-                  </div>
+                <div className="col-md-4 col-lg-3 col-12">
+                  <SkillCard
+                    value={75}
+                    progressColor="#e76f51"
+                    progressTrailColor="#fca48d"
+                    title="HTML&CSS"
+                    subtitle="HTML and CSS are two of the core technologies for building Web pages."
+                  />
                 </div>
-                <div className="col-lg-3 col-md-4 col-6">
-                  <div className="circularprogress">
-                    <div className="svg-container bg-danger">
-                      <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                      </svg>
-                    </div>
-                  </div>
+                <div className="col-md-4 col-lg-3 col-12">
+                  <SkillCard
+                    value={70}
+                    progressColor="#1d3557"
+                    progressTrailColor="#8cb9fa"
+                    title="JAVASCRIPT"
+                    subtitle="JavaScript® (JS) is a lightweight, interpreted, object-oriented language , is best known as the scripting language for Web pages"
+                  />
+                </div>
+                <div className="col-md-4 col-lg-3 col-12">
+                  <SkillCard
+                    value={65}
+                    progressColor="#e63946"
+                    progressTrailColor="#ff828b"
+                    title="DART&FLUTTER"
+                    subtitle="Flutter is a cross-platform UI toolkit that is designed to allow code reuse across operating systems such as iOS and Android."
+                  />
+                </div>
+
+                <div className="col-md-4 col-lg-3 col-12">
+                  <SkillCard
+                    value={70}
+                    progressColor="#fca311"
+                    progressTrailColor="#ffcf80"
+                    title="REACTJS"
+                    subtitle="React (also known as React.js or ReactJS) is an open-source, front end, JavaScript library for building user interfaces or UI components"
+                  />
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

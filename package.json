@@ -12,6 +12,7 @@
     "boxicons": "^2.0.5",
     "emailjs-com": "^2.6.3",
     "react": "^16.13.1",
+    "react-circular-progressbar": "^2.0.3",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-typed": "^1.2.0",

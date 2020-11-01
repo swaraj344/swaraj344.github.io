@@ -1,111 +1,79 @@
 import React from "react";
-import styled from "styled-components";
+import "./css/portfolio.css";
 
-const Section = styled.section`
-  background: #2b2b2b;
-  padding: 5% 10%;
-`;
-const H1 = styled.h1`
-  text-align: center;
-  position: relative;
-  font-size: 2rem;
-`;
-const ProjectContainer = styled.div`
-  padding: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-`;
-const ProjectCardBody = styled.div`
-  margin: 20px 10px;
-  color: black;
-  text-align: center;
-  max-width: 30%;
-  background-color: #fff;
-  border-radius: 0.3rem;
-  overflow: hidden;
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
+const portfolio_data = [
+  {
+    imgUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-site-45e1e.appspot.com/o/portfolio1.JPG?alt=media&token=6e4a20c6-38f1-4736-93bb-43842709c02f",
+    projectTitle: "Full Website With React",
+    projectSubTitle: "Project info Lorem ipsum dolor sit amet.",
+    projectUrl: "https://aligatoritsolution.web.app",
+  },
+  {
+    imgUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-site-45e1e.appspot.com/o/WallFy.png?alt=media&token=067db1ce-47a2-4186-aace-3e2e1b63e6ca",
+    projectTitle: "Wallfy: Android Application",
+    projectSubTitle: "Wallpaper Application for mobile build using flutter",
+    projectUrl:
+      "https://play.google.com/store/apps/details?id=com.swaraj344.wallfy",
+  },
+  {
+    imgUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-site-45e1e.appspot.com/o/Annotation%202020-11-01%20144835.jpg?alt=media&token=79dd2d94-b24d-487d-8efa-6925959cc9ed",
+    projectTitle: "Youtube Video Downloader",
+    projectSubTitle: "Windows App|download youtube video to local storage",
+    projectUrl:
+      "https://github.com/swaraj344/Youtube-Video-Downloader/blob/master/Windows%20setup%20installer/setup.exe?raw=true",
+  },
+];
 
-  @media only screen and (max-width: 876px) {
-    max-width: 45%;
-  }
-  @media only screen and (max-width: 600px) {
-    max-width: 100%;
-  }
-  &:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    min-height: 170px;
-  }
-  .card__content {
-    padding: 0.5rem 3rem;
-  }
-  .card__content h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: black;
-    margin-bottom: 0.5rem;
-  }
-  .card__content .card__button {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    color: #3363ff;
-    background-color: #e6ecff;
-    border: none;
-    border-radius: 0.4rem;
-    transition: 0.3s;
-    cursor: pointer;
-  }
-  .card__content .card__button .btn-icon {
-    position: absolute;
-    right: 6%;
-  }
-`;
-
-const ProjectCard = () => {
-  return (
-    <ProjectCardBody>
-      <img
-        src="https://firebasestorage.googleapis.com/v0/b/portfolio-site-45e1e.appspot.com/o/portfolio1.JPG?alt=media&token=6e4a20c6-38f1-4736-93bb-43842709c02f"
-        alt="Project"
-      />
-      <div className="card__content">
-        <h3>Full Site With React</h3>
-        <div className="card__button">
-          <p>Live link</p>{" "}
-          <span className="btn-icon">
-            <box-icon color="black" name="link-external"></box-icon>
-          </span>
-        </div>
+const PortfolioCard = (props) => (
+  <div className="col-lg-4 col-md-6 col-12">
+    <div className="card  bg-dark">
+      <img className="card-img-top" src={props.imgUrl} alt="project" />
+      <div className="card-body">
+        <h6 className="text-center card-title">{props.projectTitle}</h6>
+        <p className="card-text text-muted">{props.subTitle}</p>
       </div>
-    </ProjectCardBody>
-  );
-};
+      <div className="card-footer">
+        <a
+          href={props.projectUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary btn-block"
+        >
+          Live link
+        </a>
+      </div>
+    </div>
+  </div>
+);
 
 function Portfolio() {
   return (
     <div>
-      <Section>
-        <H1>Portfolio</H1>
-        <ProjectContainer>
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-        </ProjectContainer>
-      </Section>
+      <section id="portfolio">
+        <div className="container-fluid">
+          <div className="container">
+            <span className="d-flex justify-content-center">
+              <h4 className="edu-subtitle">Portfolio</h4>
+            </span>
+            <div className="row">
+              {portfolio_data.map((data) => {
+                return (
+                  <PortfolioCard
+                    key={data.projectTitle}
+                    projectTitle={data.projectTitle}
+                    subTitle={data.projectSubTitle}
+                    imgUrl={data.imgUrl}
+                    projectUrl={data.projectUrl}
+                  />
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
