@@ -8,23 +8,46 @@ function Footer() {
         <div className="container">
           <h3>SWARAJ KUMAR</h3>
           <p>
-            Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
-            eligendi fuga maxime saepe commodi placeat.
+            Oh You come at the end thanks for visiting my page, stay connected
+            with me, you can contact me through contact section Thank-You{" "}
+            <span role="img" aria-label="blush:">
+              😊{" "}
+            </span>
           </p>
           <div className="social-links">
-            <a href="##" className="twitter">
-              <i className="bx bxl-twitter"></i>
+            <a
+              href="https://api.whatsapp.com/send?phone=+918709830719"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-whatsapp"></i>
             </a>
-            <a href="##" className="facebook">
+            <a
+              href="https://www.facebook.com/swaraj.kumar.1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="bx bxl-facebook"></i>
             </a>
-            <a href="##" className="instagram">
+            <a
+              href="https://www.instagram.com/i_am_dev_swaraj/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="bx bxl-instagram"></i>
             </a>
-            <a href="##" className="google-plus">
-              <i className="bx bxl-skype"></i>
+            <a
+              href="https://github.com/swaraj344"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-github"></i>
             </a>
-            <a href="##" className="linkedin">
+            <a
+              href="https://www.linkedin.com/in/swaraj-kumar-b63376171/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="bx bxl-linkedin"></i>
             </a>
           </div>

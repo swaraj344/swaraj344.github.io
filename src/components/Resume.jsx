@@ -93,7 +93,7 @@ function Resume() {
               <div className="row">
                 <div className="col-md-4 col-lg-3 col-12">
                   <SkillCard
-                    value={80}
+                    value={85}
                     progressColor="#C010D6"
                     progressTrailColor="#EBA9F3"
                     title="CORE JAVA"
@@ -129,7 +129,7 @@ function Resume() {
                 </div>
                 <div className="col-md-4 col-lg-3 col-12">
                   <SkillCard
-                    value={65}
+                    value={75}
                     progressColor="#e63946"
                     progressTrailColor="#ff828b"
                     title="DART&FLUTTER"

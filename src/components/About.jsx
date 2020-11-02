@@ -6,7 +6,7 @@ import MoreDetail from "./Resume";
 function About() {
   return (
     <div>
-      <section>
+      <section id="about">
         <div className="container-fluid darkBg">
           <div className="container">
             <div className="row row-cols-2 ">
@@ -23,14 +23,34 @@ function About() {
               <div className="col-md-9 col-12">
                 <div className="about-left-section text-center text-md-left">
                   <h4>About me</h4>
+                  <p>Hey there, I am Swaraj</p>{" "}
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius commodi incidunt, optio obcaecati corporis eos modi
-                    quos iusto dignissimos, quam exercitationem a, expedita
-                    accusamus quasi neque? Quas consectetur, libero cumque
-                    veniam iure ipsum quo in distinctio ex debitis illum velit
-                    deleniti eos fugit impedit perspiciatis nisi! Tempore
-                    veritatis error alias.
+                    A Programmer/Developer/Freelancer who loves building things
+                    , always energetic and eager to learn new skills.,{" "}
+                  </p>
+                  <p>
+                    I am a talented, ambitious and hardworking individual, with
+                    broad skills and experience in building web and mobile
+                    application ,social and technical skills.
+                  </p>
+                  <p>
+                    recently, I have completed my graduation from Marwari
+                    College Ranchi in BCA(Bachelor's of computer application.),
+                  </p>
+                  <p>
+                    Furthermore, I am adept at handling multiple tasks on a
+                    daily basis competently and at working well under pressure.
+                  </p>
+                  <h6>Fun Fact</h6>
+                  <p>
+                    I believe in a world where coffee{" "}
+                    <span role="img" aria-label="coffee emoji">
+                      ☕
+                    </span>{" "}
+                    can solve any and all problems 😁
+                    <br />
+                    <strong className="text-white">P.S.</strong> I do know that
+                    HTML is not a programming language! ✌️
                   </p>
                   <h4>Contact details</h4>
                   <p>24/7 at Whatsapp - (+91) 8709830719</p>

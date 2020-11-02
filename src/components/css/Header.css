@@ -48,7 +48,7 @@
 
   height: 30px;
   margin: 20px 0;
-  padding: 28px 0;
+  padding: 28px 0px;
 }
 .nav-menu > ul > li > a {
   font-weight: bold;
@@ -59,6 +59,8 @@
   display: flex;
   align-items: center;
   transition: 0.5s;
+
+  /* border: 1px solid black; */
 }
 .nav-menu > ul > li > a > i {
   font-size: 20px;
@@ -76,4 +78,12 @@
   background-color: white;
   color: black;
   width: 100%;
+}
+.active > a {
+  background-color: white !important;
+  color: black !important;
+  width: 100% !important;
+}
+.active > a > span {
+  display: block !important;
 }
