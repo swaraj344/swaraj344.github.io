@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cb97148.chunk.css",
-    "main.js": "/static/js/main.f09f85a9.chunk.js",
-    "main.js.map": "/static/js/main.f09f85a9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/css/2.cb011947.chunk.css": "/static/css/2.cb011947.chunk.css",
-    "static/js/2.ce6a35b8.chunk.js": "/static/js/2.ce6a35b8.chunk.js",
-    "static/js/2.ce6a35b8.chunk.js.map": "/static/js/2.ce6a35b8.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.cb011947.chunk.css.map": "/static/css/2.cb011947.chunk.css.map",
-    "static/css/main.7cb97148.chunk.css.map": "/static/css/main.7cb97148.chunk.css.map",
-    "static/js/2.ce6a35b8.chunk.js.LICENSE.txt": "/static/js/2.ce6a35b8.chunk.js.LICENSE.txt",
-    "static/media/boxicons.css": "/static/media/boxicons.83ea8051.woff",
-    "static/media/envelop.9531b89b.svg": "/static/media/envelop.9531b89b.svg",
-    "static/media/HeroSection.css": "/static/media/man2.ac474963.jpg",
-    "static/media/profile.4af10c3e.jpg": "/static/media/profile.4af10c3e.jpg"
+    "main.css": "/swaraj344.github.io/static/css/main.b5c1e895.chunk.css",
+    "main.js": "/swaraj344.github.io/static/js/main.c2c5ff20.chunk.js",
+    "main.js.map": "/swaraj344.github.io/static/js/main.c2c5ff20.chunk.js.map",
+    "runtime-main.js": "/swaraj344.github.io/static/js/runtime-main.7673f13d.js",
+    "runtime-main.js.map": "/swaraj344.github.io/static/js/runtime-main.7673f13d.js.map",
+    "static/css/2.09496038.chunk.css": "/swaraj344.github.io/static/css/2.09496038.chunk.css",
+    "static/js/2.ce6a35b8.chunk.js": "/swaraj344.github.io/static/js/2.ce6a35b8.chunk.js",
+    "static/js/2.ce6a35b8.chunk.js.map": "/swaraj344.github.io/static/js/2.ce6a35b8.chunk.js.map",
+    "index.html": "/swaraj344.github.io/index.html",
+    "static/css/2.09496038.chunk.css.map": "/swaraj344.github.io/static/css/2.09496038.chunk.css.map",
+    "static/css/main.b5c1e895.chunk.css.map": "/swaraj344.github.io/static/css/main.b5c1e895.chunk.css.map",
+    "static/js/2.ce6a35b8.chunk.js.LICENSE.txt": "/swaraj344.github.io/static/js/2.ce6a35b8.chunk.js.LICENSE.txt",
+    "static/media/boxicons.css": "/swaraj344.github.io/static/media/boxicons.83ea8051.woff",
+    "static/media/envelop.9531b89b.svg": "/swaraj344.github.io/static/media/envelop.9531b89b.svg",
+    "static/media/HeroSection.css": "/swaraj344.github.io/static/media/man2.ac474963.jpg",
+    "static/media/profile.4af10c3e.jpg": "/swaraj344.github.io/static/media/profile.4af10c3e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b83279d6.js",
-    "static/css/2.cb011947.chunk.css",
+    "static/js/runtime-main.7673f13d.js",
+    "static/css/2.09496038.chunk.css",
     "static/js/2.ce6a35b8.chunk.js",
-    "static/css/main.7cb97148.chunk.css",
-    "static/js/main.f09f85a9.chunk.js"
+    "static/css/main.b5c1e895.chunk.css",
+    "static/js/main.c2c5ff20.chunk.js"
   ]
 }
