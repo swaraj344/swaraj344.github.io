@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/swaraj344.github.io/static/css/main.d4116f41.chunk.css",
-    "main.js": "/swaraj344.github.io/static/js/main.9ad1b280.chunk.js",
-    "main.js.map": "/swaraj344.github.io/static/js/main.9ad1b280.chunk.js.map",
-    "runtime-main.js": "/swaraj344.github.io/static/js/runtime-main.af5d2924.js",
-    "runtime-main.js.map": "/swaraj344.github.io/static/js/runtime-main.af5d2924.js.map",
-    "static/css/2.2088691d.chunk.css": "/swaraj344.github.io/static/css/2.2088691d.chunk.css",
-    "static/js/2.eeab79c1.chunk.js": "/swaraj344.github.io/static/js/2.eeab79c1.chunk.js",
-    "static/js/2.eeab79c1.chunk.js.map": "/swaraj344.github.io/static/js/2.eeab79c1.chunk.js.map",
+    "main.css": "/swaraj344.github.io/static/css/main.b5c1e895.chunk.css",
+    "main.js": "/swaraj344.github.io/static/js/main.c2c5ff20.chunk.js",
+    "main.js.map": "/swaraj344.github.io/static/js/main.c2c5ff20.chunk.js.map",
+    "runtime-main.js": "/swaraj344.github.io/static/js/runtime-main.7673f13d.js",
+    "runtime-main.js.map": "/swaraj344.github.io/static/js/runtime-main.7673f13d.js.map",
+    "static/css/2.09496038.chunk.css": "/swaraj344.github.io/static/css/2.09496038.chunk.css",
+    "static/js/2.ce6a35b8.chunk.js": "/swaraj344.github.io/static/js/2.ce6a35b8.chunk.js",
+    "static/js/2.ce6a35b8.chunk.js.map": "/swaraj344.github.io/static/js/2.ce6a35b8.chunk.js.map",
     "index.html": "/swaraj344.github.io/index.html",
-    "precache-manifest.434154cb95a18aa0e95f63699d68b10b.js": "/swaraj344.github.io/precache-manifest.434154cb95a18aa0e95f63699d68b10b.js",
-    "service-worker.js": "/swaraj344.github.io/service-worker.js",
-    "static/css/2.2088691d.chunk.css.map": "/swaraj344.github.io/static/css/2.2088691d.chunk.css.map",
-    "static/css/main.d4116f41.chunk.css.map": "/swaraj344.github.io/static/css/main.d4116f41.chunk.css.map",
-    "static/js/2.eeab79c1.chunk.js.LICENSE.txt": "/swaraj344.github.io/static/js/2.eeab79c1.chunk.js.LICENSE.txt",
-    "static/media/boxicons.css": "/swaraj344.github.io/static/media/boxicons.aeaf4ee6.woff2",
-    "static/media/envelop.svg": "/swaraj344.github.io/static/media/envelop.a680e7e2.svg",
-    "static/media/HeroSection.css": "/swaraj344.github.io/static/media/man2.c5ccf11d.jpg",
-    "static/media/profile.jpg": "/swaraj344.github.io/static/media/profile.fc7d3e26.jpg"
+    "static/css/2.09496038.chunk.css.map": "/swaraj344.github.io/static/css/2.09496038.chunk.css.map",
+    "static/css/main.b5c1e895.chunk.css.map": "/swaraj344.github.io/static/css/main.b5c1e895.chunk.css.map",
+    "static/js/2.ce6a35b8.chunk.js.LICENSE.txt": "/swaraj344.github.io/static/js/2.ce6a35b8.chunk.js.LICENSE.txt",
+    "static/media/boxicons.css": "/swaraj344.github.io/static/media/boxicons.83ea8051.woff",
+    "static/media/envelop.9531b89b.svg": "/swaraj344.github.io/static/media/envelop.9531b89b.svg",
+    "static/media/HeroSection.css": "/swaraj344.github.io/static/media/man2.ac474963.jpg",
+    "static/media/profile.4af10c3e.jpg": "/swaraj344.github.io/static/media/profile.4af10c3e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af5d2924.js",
-    "static/css/2.2088691d.chunk.css",
-    "static/js/2.eeab79c1.chunk.js",
-    "static/css/main.d4116f41.chunk.css",
-    "static/js/main.9ad1b280.chunk.js"
+    "static/js/runtime-main.7673f13d.js",
+    "static/css/2.09496038.chunk.css",
+    "static/js/2.ce6a35b8.chunk.js",
+    "static/css/main.b5c1e895.chunk.css",
+    "static/js/main.c2c5ff20.chunk.js"
   ]
 }
